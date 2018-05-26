@@ -11,6 +11,8 @@
 		0398685720660BA100D85D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398685620660BA100D85D51 /* ViewController.swift */; };
 		0398685A20660BA100D85D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0398685820660BA100D85D51 /* Main.storyboard */; };
 		0398685C20660BA100D85D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0398685B20660BA100D85D51 /* Assets.xcassets */; };
+		0398686420660DD000D85D51 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398686320660DD000D85D51 /* MainViewController.swift */; };
+		0398686620665FBE00D85D51 /* TopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0398686520665FBE00D85D51 /* TopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0398685920660BA100D85D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0398685B20660BA100D85D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0398685D20660BA100D85D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0398686320660DD000D85D51 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0398686520665FBE00D85D51 /* TopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				0398685420660BA100D85D51 /* AppDelegate.swift */,
 				0398685620660BA100D85D51 /* ViewController.swift */,
+				0398686320660DD000D85D51 /* MainViewController.swift */,
+				0398686520665FBE00D85D51 /* TopUpViewController.swift */,
 				0398685820660BA100D85D51 /* Main.storyboard */,
 				0398685B20660BA100D85D51 /* Assets.xcassets */,
 				0398685D20660BA100D85D51 /* Info.plist */,
@@ -132,8 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0398686420660DD000D85D51 /* MainViewController.swift in Sources */,
 				0398685720660BA100D85D51 /* ViewController.swift in Sources */,
 				0398685520660BA100D85D51 /* AppDelegate.swift in Sources */,
+				0398686620665FBE00D85D51 /* TopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +273,7 @@
 				DEVELOPMENT_TEAM = C58CLY4K2U;
 				INFOPLIST_FILE = "我的储金罐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.numericdesign.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = org.numericdesign.piggybank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -281,7 +289,7 @@
 				DEVELOPMENT_TEAM = C58CLY4K2U;
 				INFOPLIST_FILE = "我的储金罐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.numericdesign.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = org.numericdesign.piggybank;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
